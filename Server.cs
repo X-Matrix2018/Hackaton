@@ -76,7 +76,8 @@ public class Server : MonoBehaviour
                     for (int i2 = 0; i2 <= town.data.buildings.Length - 1; i2++)
                     {
                         coords.Add(new float[2] {town.data.buildings[i2].position[0] , town.data.buildings[i2].position[1] });
-                        n = new System.Random().Next(1, 3);
+                        //n = new System.Random().Next(1, 3);
+                        n=1;
                         Debug.Log(n);
                         if (n == 1)
                         {
