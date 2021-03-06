@@ -109,7 +109,7 @@ public class Server : MonoBehaviour
                 }
                     // var gg = JsonUtility.FromJson<resultn>(builder.ToString());
 
-                    /*    Debug.Log(all.data.buildings[0].position[0]);
+                       Debug.Log(all.data.buildings[0].position[0]);
                     if (i == 1)
                     {
                         Debug.Log(builder.ToString());
@@ -147,7 +147,7 @@ public class Server : MonoBehaviour
                             }
                             Debug.Log("Line= " + a);
                         }
-                    }*/
+                    }
                     socket.Shutdown(SocketShutdown.Both);
                 socket.Close();
             }
